@@ -90,18 +90,6 @@ ul { list-style: none; }
   line-height: 1.15;
   color: var(--cream);
 }
-.section-num {
-  font-family: var(--ff-disp);
-  font-size: clamp(6rem, 12vw, 11rem);
-  font-weight: 300;
-  font-style: italic;
-  color: var(--bg-3);
-  line-height: 1;
-  user-select: none;
-  pointer-events: none;
-  margin-bottom: -0.2em;
-  margin-left: -0.05em;
-}
 
 /* ── ORNAMENT ── */
 .hero-ornament,
@@ -278,14 +266,19 @@ ul { list-style: none; }
   font-size: clamp(5.5rem, 15vw, 15rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.02em;
   color: var(--cream);
+}
+.hero-name-first {
+  display: block;
+  letter-spacing: 0.18em;
+  font-weight: 300;
 }
 .hero-name em {
   font-style: italic;
   font-weight: 400;
   color: var(--gold);
   display: block;
+  letter-spacing: -0.02em;
 }
 .hero-ornament { margin-bottom: 36px; }
 .hero-bottom-bar {
